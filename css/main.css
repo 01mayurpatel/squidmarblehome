@@ -1789,7 +1789,9 @@ a {
 
 img {
     height: auto;
-    max-width: 100%
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button,
@@ -2459,7 +2461,7 @@ header.primary-header .mobile-header .illustration {
     header.primary-header .mobile-header .illustration {
         width: 287px;
         height: 222px;
-        background-image: url
+       
     }
 }
 
@@ -3047,7 +3049,11 @@ section.countdown-section .countdown-wrap .row .mins-wrap .title {
         margin-top: 40px
     }
 }
-
+@media (max-width:1283px) {
+    img{
+        max-width: 50%;
+    }
+}
 .socials-section .row {
     display: grid;
     -webkit-box-align: center;
